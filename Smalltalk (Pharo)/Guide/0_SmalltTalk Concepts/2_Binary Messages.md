@@ -1,7 +1,6 @@
-# Evaluate de following binary messages.
-# Evalúe los siguientes Mensajes Binarios.
+### Evaluate de following binary messages (Evalúe los siguientes Mensajes Binarios).
 
-##Nota: El operador "," concatena colecciones.
+#### Nota: El operador "," concatena colecciones.
 
 #### a)
 ```smalltalk
