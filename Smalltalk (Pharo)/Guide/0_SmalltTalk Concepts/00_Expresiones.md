@@ -54,10 +54,12 @@ Note: Divition whithout rest
 #### h)
 ```smalltalk
 4 \\ 3
-
+ 
 Result: 1
 
 Note: 4 MOD 3 = 1
+
+Other option: 4 % 3 = 4 \\ 3
 ```
 
 
