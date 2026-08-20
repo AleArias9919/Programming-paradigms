@@ -1,13 +1,11 @@
 #### Evaluate the following Unary Messages (Evalúe los siguientes Mensajes Unarios).
-
-#### Evalúe las siguientes expresiones en el entorno y anote los resultados, entendiendo en cada caso su funcionamiento. 
-
 #### a)
 ```smalltalk
 #( 'arreglo' 'de' 'strings' ) size
 
 Result: 3
-Nota: Leave space between elements (Dejar espacio entre elementos)
+
+Note: Leave space between elements (Dejar espacio entre elementos)
 ```
 
 #### b)
@@ -56,6 +54,6 @@ Result: $A
 'Cuál es la longitud de la oración?' size
 
 Result: 34
-Note: Spaces count as characters (Los espacios cuentan como caracteres).
 
+Note: Spaces count as characters (Los espacios cuentan como caracteres).
 ```
