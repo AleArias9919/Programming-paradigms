@@ -47,6 +47,8 @@ Result: 35
 5 // 2
 
 Result: 2
+
+Note: Divition whithout rest
 ```
 
 #### h)
@@ -55,6 +57,7 @@ Result: 2
 
 Result: 1
 
+Note: 4 MOD 3 = 1
 ```
 
 
