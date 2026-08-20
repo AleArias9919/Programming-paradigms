@@ -56,7 +56,3 @@ Array new: 10
 Result: #(nil nil nil nil nil nil nil nil nil nil)
 ```
 
-#### a)
-```smalltalk
-
-```
