@@ -48,7 +48,7 @@ Result: 35
 
 Result: 2
 
-Note: Divition whithout rest
+Note: Divition whithout remainder
 ```
 
 #### h)
@@ -57,7 +57,7 @@ Note: Divition whithout rest
  
 Result: 1
 
-Note: 4 MOD 3 = 1
+Note: It shows the remainder. In Algorithms we used 4 MOD 3 =1
 
 Other option: 4 % 3 = 4 \\ 3
 ```
