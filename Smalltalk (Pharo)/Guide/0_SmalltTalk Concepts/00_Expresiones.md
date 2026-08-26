@@ -84,6 +84,8 @@ Result: 631.5
 Array new
 
 Result: #()
+
+Note: New is used to create a new instance.
 ```
 
 #### l)
@@ -91,6 +93,8 @@ Result: #()
 Date today
 
 Result: day/month/year
+
+Note: It is like an implicit instance, 
 ```
 
 #### m)
@@ -99,6 +103,7 @@ Time now
 
 Result: dd:mm:ss.fff am/pm      example: (1:01:12.544 am)
 
+Note: Same as l).
 ```
 
 
