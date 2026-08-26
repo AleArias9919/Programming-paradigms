@@ -1,5 +1,5 @@
 #Evalúe las siguientes expresiones en el entorno y anote los resultados, entendiendo en cada caso su funcionamiento. 
-
+https://docs.google.com/document/d/1FRx4ihUaIXoNbVozzcn2eVXjqi__k5rKGHMrWQtGa7E/edit?tab=t.0
 #### a)
 ```smalltalk
 5 + 6
