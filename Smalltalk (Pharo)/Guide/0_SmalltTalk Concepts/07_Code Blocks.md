@@ -6,6 +6,7 @@
 
 -In summary, blocks are a fundamental tool in Pharo that allow you to encapsulate logic that is executed on demand, make code more flexible, and take advantage of object-oriented programming even in small operations or conditions.
 
+-It is very usefull to ease the code, to make it more readable.
 
 #### a)
 
