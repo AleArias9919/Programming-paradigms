@@ -35,7 +35,7 @@ Note: It is not a vowel
 
 Result: 'HOLA'
 
-Note: Is asUppercase, not asUpperCase, be careful with the capital in "case"
+Note: Is asUppercase, not asUpperCase, be careful with the capital in "case". It returns the result of the last action.
 ```
 
 #### d)
