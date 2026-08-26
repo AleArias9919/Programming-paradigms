@@ -30,6 +30,8 @@ Result:'yotse íuqa aloH'
 #( 4 'cinco' 6 7 ) reversed
 
 Result: #(7 6 'cinco' 4)
+
+Note: An array is always preceeded by an #.
 ```
 
 
