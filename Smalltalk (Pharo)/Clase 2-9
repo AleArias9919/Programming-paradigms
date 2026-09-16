@@ -1,1 +1,30 @@
+| a b c menor mayor aux|
 
+a:= (UIManager default request: 'Enter first number: ') asNumber.
+b:= (UIManager default request: 'Enter second number:  ') asNumber.
+
+c:= 0.
+
+Transcript clear.
+
+
+
+(b < a) ifTrue: [ 
+	mayor:= a.
+	menor:= b.
+	 ]
+	ifFalse: [ 
+		mayor:= b.
+		menor:= a
+		 ].
+	
+Transcript show: ('Bigger: ', mayor asString, ', smaller: ', menor asString); cr.
+
+aux:= menor.
+
+[ menor > 0 ]  whileTrue: [ 
+	c:= mayor + mayor.
+	menor:= menor - 1.
+	 ].
+
+Transcript show: 'The prodyc'
