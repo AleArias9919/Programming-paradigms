@@ -7,7 +7,6 @@
 Transcript clear.
 
 it:= (UIManager default request: 'Enter amount of numbers ') asNumber.
-
 j:= 0.
 
 [ j < it ] whileTrue: [ 
@@ -27,7 +26,6 @@ j:= 0.
 	 ] ifFalse: [
 	Transcript show: 'The number ', n asString, ' is not a cousin number'; cr.
 		].
-
 j:= j + 1.
 	 ].
 
