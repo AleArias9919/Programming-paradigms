@@ -1,0 +1,5 @@
+### Dada una cadena de entrada, devolver otra en la cual las palabras estén en formato ‘tipo título’. 
+
+```smalltalk
+
+```
