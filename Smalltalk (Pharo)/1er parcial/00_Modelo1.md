@@ -3,7 +3,9 @@
 
 ```
 
-### 2) Calcule la serie alternada de Gregory-Leibniz: ∞ ∑ 𝑘=0 (−1)𝑘+1 2𝑘 −1 
+### 2) Calcule la serie alternada de Gregory-Leibniz: 
+<img width="147" height="93" alt="{F6FCBB8F-4ADE-45B0-9DAE-BF166BD93227}" src="https://github.com/user-attachments/assets/ca9281ad-6fb1-4eb6-bcd1-d5f4498be2b3" />
+
 #### Nota: analizar si es posible optimizar el cálculo de cada término.   
 
 ```smalltalk
