@@ -2,30 +2,60 @@
 #### Por ejemplo, a partir del arreglo [1, 3, 1, 7, 2, 7, 1, 7, 3] se quiere obtener [1, 1, 1, 7, 7, 7, 3, 3, 2]. 
 
 ```smalltalk
-| x c n tot |
+| x1 x2 c n tot may lmay j2|
 
 Transcript clear.
 
 c:= (UIManager default request: 'Enter the number of elements of the array') asNumber.
 
-x:= Array new: c.
+x1:= Array new: c.
+x2:= Array new: c.
+
+Transcript show: 'Original array: ['.
 
 1 to: c do: [ : i |
-    x at: i put: (UIManager default request: 'Enter the value of the position ', i asString, ' of the array (Natural number): ') asNumber.
+    x1 at: i put: (UIManager default request: 'Enter the value of the position ', i asString, ' of the array (Natural number): ') asNumber.
+	Transcript show: (x1 at: i).
     ].
 
-1 to: c do: [ : j |
-    n:= (x at: j).
-    tot:= 0.
-    1 to: c do: [ : k |
-        ((x at: k) = n) ifTrue: [
-            tot:= (tot + 1).
-				x at: k put: -1.
-            ].
-        ].
-	(n ~= -1) ifTrue: [ 
-    Transcript show: 'The amount of times that the number ', n asString, ' appears is: ', tot asString; cr.
-  ]
-]
+Transcript show: ']'.
 
+may:= 0.
+
+1 to: c do: [ :i2 |
+	x2 at: i2 put: -1.
+	 ].
+
+[ (x2 at: c) = -1 ] whileTrue: [ 
+	1 to: c do: [ : j |
+		tot:= 0.
+	   	n:= (x1 at: j).
+		(n = -1) ifFalse: [ 
+		1 to: c do: [ : k |
+			(n = (x1 at: k)) ifTrue: [ 
+				tot:= (tot + 1).
+			 ].
+			(may < tot) ifTrue: [ 
+			may:= tot.
+			lmay:= n.
+		 	].
+		].
+	].
+
+	1 to: c do: [ : m|
+		j2:= 1.
+		[ j2 <= may ] whileTrue: 
+			[((x2 at: m) = -1) ifTrue: [ 
+				x2 at: m put: lmay.
+				j2:= (j2+1).
+				 ].
+				((x1 at: m) = lmay) ifTrue:[
+					x1 at: m put: -1. ]
+				ifFalse: [ 
+			
+				 ].
+			 ] 
+		].
+	].
+]
 ```
